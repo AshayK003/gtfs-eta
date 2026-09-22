@@ -38,8 +38,9 @@ ENV/
 # Test caches
 .pytest_cache/
 
-# Project specific (GTFS feeds + outputs stay local)
-data/
+# Project specific (full feeds + outputs stay local; frozen cluster slice ships)
+data/*
+!data/cluster/
 results/
 
 # OS

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Static-GTFS Bus ETA (Delhi)
+message: If you use this software, please cite it as below.
+authors:
+  - family-names: Kushwaha
+    given-names: Ashay
+url: https://github.com/AshayK003/gtfs-eta
+repository-code: https://github.com/AshayK003/gtfs-eta
+license: MIT
+version: 1.0.0
+date-released: 2026-09-22

@@ -1,0 +1,3 @@
+agency_id,route_id,route_long_name,route_short_name,route_type
+DTC,5064,159UP,,3
+DTC,5530,159DOWN,,3

@@ -1,0 +1,28 @@
+{
+  "version": "v1",
+  "frozen": "2026-09-22",
+  "feed": {
+    "name": "Delhi DTC/DIMTS static GTFS via MobilityDB mirror",
+    "sources": ["https://files.mobilitydatabase.org/mdb-3139/latest.zip", "https://files.mobilitydatabase.org/mdb-1262/latest.zip"],
+    "snapshot_bytes": 19777166,
+    "note": "Both mirrors byte-identical on 2026-09-22. OTD origin + traffickarma host unreachable (probed); busmaps copy key-gated."
+  },
+  "inventory": {
+    "agencies": ["DIMTS", "DTC"],
+    "routes": 2964,
+    "trips": 78515,
+    "stops": 6342,
+    "stop_times_rows": 3276092,
+    "stop_times_unzipped_bytes": 118421250,
+    "service": "single service_id=1, all days, 20220101-20240101",
+    "dwell_rows_per_200k": 0,
+    "time_resolution": "second-level (e.g. 06:01:13), estimated not observed"
+  },
+  "cluster": {
+    "id": "DTC-159-bidirectional",
+    "route_ids": ["5064", "5530"],
+    "names": ["159UP", "159DOWN"],
+    "trips": 316,
+    "why": "densest balanced directional pair (158/158); direction effects analyzable; single agency (DTC)"
+  }
+}
