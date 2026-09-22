@@ -1,6 +1,7 @@
 # Static-GTFS Bus ETA (Delhi)
 
 **Author:** [Ashay Kushwaha](https://github.com/AshayK003) ([CypherLabs](https://github.com/AshayK003))
+**Report:** [internals/report.pdf](internals/report.pdf)
 
 > **Status: measured on the frozen cluster, `python evaluate.py`
 > regenerates every number.** Article follows numbers, never precedes them.
